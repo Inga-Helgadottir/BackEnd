@@ -91,7 +91,7 @@ src
 - Long id;
 - String role_name;
 - String role_description;
-- List<Employee> employees = new ArrayList<>();
+- List<Employee> employees;
 
 ### Shift
 - Long id;
@@ -99,7 +99,7 @@ src
 - LocalDateTime start_time;
 - LocalDateTime end_time;
 - Long amount_of_employees_needed;
-- List<Employee> employees = new ArrayList<>();
+- List<Employee> employees;
 
 ### EmployeeLogin (The input object for the login method)
 - String email;
